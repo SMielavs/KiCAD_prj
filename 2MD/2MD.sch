@@ -1,0 +1,204 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L KiCAD_customlibraries:PUMX1,115 U1
+U 1 1 5C76E2A1
+P 6050 4500
+F 0 "U1" H 6025 4665 50  0000 C CNN
+F 1 "PUMX1,115" H 6025 4574 50  0000 C CNN
+F 2 "" H 6050 4600 50  0001 C CNN
+F 3 "" H 6050 4600 50  0001 C CNN
+	1    6050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5C76E533
+P 5650 4000
+F 0 "C1" V 5902 4000 50  0000 C CNN
+F 1 "47uF" V 5811 4000 50  0000 C CNN
+F 2 "" H 5650 4000 50  0001 C CNN
+F 3 "~" H 5650 4000 50  0001 C CNN
+	1    5650 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1 C2
+U 1 1 5C76E61A
+P 6400 4000
+F 0 "C2" V 6148 4000 50  0000 C CNN
+F 1 "47uF" V 6239 4000 50  0000 C CNN
+F 2 "" H 6400 4000 50  0001 C CNN
+F 3 "~" H 6400 4000 50  0001 C CNN
+	1    6400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5C76E687
+P 5800 3450
+F 0 "R2" H 5870 3496 50  0000 L CNN
+F 1 "47K" H 5870 3405 50  0000 L CNN
+F 2 "" V 5730 3450 50  0001 C CNN
+F 3 "~" H 5800 3450 50  0001 C CNN
+	1    5800 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C76E701
+P 5450 3450
+F 0 "R1" H 5520 3496 50  0000 L CNN
+F 1 "470R" H 5520 3405 50  0000 L CNN
+F 2 "" V 5380 3450 50  0001 C CNN
+F 3 "~" H 5450 3450 50  0001 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C76E779
+P 6250 3450
+F 0 "R3" H 6320 3496 50  0000 L CNN
+F 1 "47K" H 6320 3405 50  0000 L CNN
+F 2 "" V 6180 3450 50  0001 C CNN
+F 3 "~" H 6250 3450 50  0001 C CNN
+	1    6250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C76E7CD
+P 6600 3450
+F 0 "R4" H 6670 3496 50  0000 L CNN
+F 1 "470R" H 6670 3405 50  0000 L CNN
+F 2 "" V 6530 3450 50  0001 C CNN
+F 3 "~" H 6600 3450 50  0001 C CNN
+	1    6600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 5C76E838
+P 5450 2850
+F 0 "D1" V 5488 2733 50  0000 R CNN
+F 1 "LED" V 5397 2733 50  0000 R CNN
+F 2 "" H 5450 2850 50  0001 C CNN
+F 3 "~" H 5450 2850 50  0001 C CNN
+	1    5450 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5C76E8D3
+P 6600 2850
+F 0 "D2" V 6638 2733 50  0000 R CNN
+F 1 "LED" V 6547 2733 50  0000 R CNN
+F 2 "" H 6600 2850 50  0001 C CNN
+F 3 "~" H 6600 2850 50  0001 C CNN
+	1    6600 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Battery BT1
+U 1 1 5C76EAA7
+P 4900 3800
+F 0 "BT1" H 5008 3846 50  0000 L CNN
+F 1 "9V" H 5008 3755 50  0000 L CNN
+F 2 "" V 4900 3860 50  0001 C CNN
+F 3 "~" V 4900 3860 50  0001 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3600 4900 2600
+Wire Wire Line
+	4900 2600 5450 2600
+Wire Wire Line
+	6600 2600 6600 2700
+Wire Wire Line
+	5450 2600 5450 2700
+Connection ~ 5450 2600
+Wire Wire Line
+	5450 2600 5800 2600
+Wire Wire Line
+	5450 3000 5450 3300
+Wire Wire Line
+	5800 3300 5800 2600
+Connection ~ 5800 2600
+Wire Wire Line
+	5800 2600 6250 2600
+Wire Wire Line
+	6250 3300 6250 2600
+Connection ~ 6250 2600
+Wire Wire Line
+	6250 2600 6600 2600
+Wire Wire Line
+	6600 3300 6600 3000
+Wire Wire Line
+	6600 3600 6600 4000
+Wire Wire Line
+	6600 4000 6550 4000
+Wire Wire Line
+	6250 4000 6250 3600
+Wire Wire Line
+	5800 4000 5800 3600
+Wire Wire Line
+	5500 4000 5450 4000
+Wire Wire Line
+	5450 4000 5450 3600
+Wire Wire Line
+	5450 4000 5450 4900
+Wire Wire Line
+	5450 4900 5650 4900
+Connection ~ 5450 4000
+Wire Wire Line
+	5800 4000 5800 4250
+Wire Wire Line
+	5800 4250 5550 4250
+Wire Wire Line
+	5550 4250 5550 4750
+Wire Wire Line
+	5550 4750 5650 4750
+Connection ~ 5800 4000
+Wire Wire Line
+	6250 4000 6250 4350
+Connection ~ 6250 4000
+Wire Wire Line
+	6600 4000 6600 4600
+Wire Wire Line
+	6600 4600 6400 4600
+Connection ~ 6600 4000
+Wire Wire Line
+	5650 4600 4900 4600
+Wire Wire Line
+	4900 4600 4900 4000
+Wire Wire Line
+	6400 4900 6600 4900
+Wire Wire Line
+	6600 4900 6600 5100
+Wire Wire Line
+	6600 5100 4900 5100
+Wire Wire Line
+	4900 5100 4900 4600
+Connection ~ 4900 4600
+Wire Wire Line
+	6500 4350 6500 4750
+Wire Wire Line
+	6500 4750 6400 4750
+Wire Wire Line
+	6250 4350 6500 4350
+$EndSCHEMATC
