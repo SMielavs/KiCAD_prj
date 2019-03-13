@@ -1,0 +1,46 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 6950 1100 3050 1950
+U 5C892EDE
+F0 "Sheet5C892EDD" 50
+F1 "3.3Vst.sch" 50
+$EndSheet
+$Sheet
+S 950  900  4750 2350
+U 5C892F0C
+F0 "Sheet5C892F0B" 50
+F1 "ACDC.sch" 50
+$EndSheet
+$Sheet
+S 6950 3600 3050 1700
+U 5C895210
+F0 "Sheet5C89520F" 50
+F1 "5Vst.sch" 50
+$EndSheet
+$Sheet
+S 950  3700 2200 1550
+U 5C895577
+F0 "Sheet5C895576" 50
+F1 "9Vst.sch" 50
+$EndSheet
+$Sheet
+S 3650 3700 2350 1550
+U 5C89570C
+F0 "Sheet5C89570B" 50
+F1 "12Vst.sch" 50
+$EndSheet
+$EndSCHEMATC
