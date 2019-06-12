@@ -1,0 +1,21 @@
+Source,C:\Users\Gunars\Desktop\KiCAD_prj-master\KiCAD_prj\10MD\Single_Transistor_AMP\Single_Transistor_AMP3.sch
+Kicad Rev,Eeschema (5.0.2)-1
+Generated Date,6/13/2019 1:25:14 AM
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+R1,22k,Device,R
+R3,4.7k,Device,R
+R2,6.8k,Device,R
+R4,1.8k,Device,R
+C1,20uF,Device,C
+C2,50uF,Device,C
+C3,20uF,Device,C
+Q1,2N2219,Transistor_BJT,2N2219
+J2,Signal_Out,Connector,Screw_Terminal_01x02
+J1,Signal_In,Connector,Screw_Terminal_01x02
+J3,Power_Connector,Connector,Screw_Terminal_01x02
