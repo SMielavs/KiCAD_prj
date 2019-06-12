@@ -109,11 +109,8 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
-    (add_net +12V)
-    (add_net GND)
     (add_net "Net-(C1-Pad1)")
     (add_net "Net-(C1-Pad2)")
-    (add_net "Net-(C2-Pad1)")
     (add_net "Net-(C3-Pad1)")
     (add_net "Net-(C3-Pad2)")
   )
@@ -125,6 +122,7 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net "Net-(C2-Pad1)")
   )
 
   (net_class Power ""
@@ -134,6 +132,8 @@
     (via_drill 0.6)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+    (add_net +12V)
+    (add_net GND)
   )
 
   (module Package_TO_SOT_THT:TO-39-3 (layer F.Cu) (tedit 5A02FF81) (tstamp 5CD32F47)
